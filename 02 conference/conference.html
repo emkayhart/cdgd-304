@@ -1,13 +1,19 @@
 <html>
     <head>
-        <title>Giraffe Con</title>
+        <meta name="description" content="Homepage of Giraffe Con">
+        <title>Giraffe Con 2017</title>
     </head>
     <body>
         <h1 style="font-family: cursive;">Giraffe Con 2017</h1>
+        <h3>October 13th – 15th | Chicago IL</h3>
+         <p>Giraffe Con is a three-day conference that showcases the majestic creatures and exposes the extinction threat.</p>
+                 <h4 id="#top;">Register <a href="#here" >Here!</a></h4>
         <hr />
-        <p style="font-family: sans-serif;">Giraffe Con is a three-day conference that showcases the majestic creatures and exposes the extinction threat.</p>
+       
+<blockquote>The giraffe is a genus of African even-toed ungulate mammals, the tallest living terrestrial animals and the largest ruminants. The genus currently consists of one species, Giraffa camelopardalis. The giraffe's chief distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, and its distinctive coat patterns. —Wikipedia</blockquote>
 
         <style>
+            body {background-color: #E4FFFD      }
             table {
                 font-family: sans-serif; font-size: 12px;
                 width: 50%;
@@ -23,7 +29,7 @@
             }
 
         </style>
-        <! Presentor Table>
+        <!---- Presentor Table---->
         <table>
             <tr>
                 <th>Presentor</th>
@@ -61,11 +67,49 @@
                 <td>South Hall</td>
             </tr>
         </table>
+      
+        <hr />
 
-        <! Registration form>
+        <!--- Registration form----->
+        <form>
+             
+            <h4 id="#here">Register Here:</h4>
+            <fieldset>
+                <style> 
+                       fieldset { width: 50%}
+                       </style>
+    <legend>Personal information:</legend>
+        First name:<br/>
+  <input type="text" name="firstname"><br/>
+  Last name:<br/>
+  <input type="text" name="lastname">
+            <br />
+            <input type="radio" name="gender" value="Female" checked>Female<br />
+            <input type="radio" name="gender" value="Male" >Male<br />
+            <input type="radio" name="gender" value="Other" >Other<br />
+             <input type="submit" value="Submit">
+            </fieldset>
+        </form>
 
         <br />  
-        <! Map!>
+        <!---- Map!----->
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.236355712078!2d-87.6191745494226!3d41.86626097912116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2b7d33304057%3A0xb51220475f7ec7da!2sThe+Field+Museum!5e0!3m2!1sen!2sus!4v1506020913779" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <!---photos--->
+   
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/440px-Giraffe_Mikumi_National_Park.jpg" width="300" height="250"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Giraffe_koure_niger_2006.jpg/300px-Giraffe_koure_niger_2006.jpg" width="300" height="250"/>
+          <h4>We &lt;3 giraffes!</h4>
+        <hr />
+        <p>Email us:</p>
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
     </body>
 </html>
