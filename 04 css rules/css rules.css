@@ -1,47 +1,48 @@
 /* css rules*/
 h1 {
-    color: cadetblue;
-    font-family: Rockwell;
+    color: aliceblue;
+    font-family: futura;
 }
 h2 {
-   text-align: justify;
-       font-family: rockwell
+   text-align: center;
+       font-family: cursive
 }
 h3 {
-    font-family: Circular Std;
+    font-family: fantasy;
 }
 h4 {
-    font-family: futura;
-    color: darkblue
+    font-family: fantasy;
+    color: lawngreen
 }
 body {
-    background-color: cornsilk
+    background-color: darkgrey
 }
 p {
-    font-size: 15px;
-        font-family: Rockwell;
+    font-size: 20px;
+        font-family: Arial;
+    color: limegreen;
 }
 b {
-    font-family: Circular Std;
+    font-family: Georgia;
 }
 ul {
-    color: crimson;
+    color: greenyellow;
 }
 ol {
-    color: darkmagenta
+    color: mediumspringgreen
 }
 blockquote {
-    background-color: bisque;
-    padding: 10px;
-    color: saddlebrown;
-    font-family: Eurostile;
+    background-color: darkseagreen;
+    padding: 40px;
+    color: darkgreen;
+    font-family: Helvetica;
 }
 table, th, td {
-      font-family: Courier;
-                border: 1px solid black;}
+      font-family: Marker Felt;
+                border: 10px dashed green;}
             tr:nth-child(even){
-                background-color:azure
+                background-color:dimgrey
 }
 form {
-    font-family: Circular Std;
+    font-family: Arial;
 }
