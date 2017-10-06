@@ -14,8 +14,23 @@ body {
     background-color: cornsilk
 }
 p {
-    font-size: 19px
+    font-size: 15px
 }
-li {
+b {
+    font-family: Circular Std;
+}
+ul {
     color: crimson;
+}
+ol {
+    color: darkmagenta
+}
+blockquote {
+    background-color: bisque;
+    padding: 10px;
+    color: saddlebrown;
+    font-family: Eurostile;
+}
+table {
+    font-family: Courier;
 }
