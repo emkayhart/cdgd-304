@@ -1,7 +1,7 @@
 /* css rules*/
 h1 {
     color: cadetblue;
-    font-family: Futura;
+    font-family: Rockwell;
 }
 h2 {
    text-align: justify;
@@ -10,11 +10,16 @@ h2 {
 h3 {
     font-family: Circular Std;
 }
+h4 {
+    font-family: futura;
+    color: darkblue
+}
 body {
     background-color: cornsilk
 }
 p {
-    font-size: 15px
+    font-size: 15px;
+        font-family: Rockwell;
 }
 b {
     font-family: Circular Std;
@@ -31,6 +36,12 @@ blockquote {
     color: saddlebrown;
     font-family: Eurostile;
 }
-table {
-    font-family: Courier;
+table, th, td {
+      font-family: Courier;
+                border: 1px solid black;}
+            tr:nth-child(even){
+                background-color:azure
+}
+form {
+    font-family: Circular Std;
 }
