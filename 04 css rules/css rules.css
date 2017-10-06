@@ -1,14 +1,18 @@
 /* css rules*/
 h1 {
     color: cadetblue;
+    font-family: Futura;
 }
 h2 {
    text-align: justify;
        font-family: rockwell
 }
+h3 {
+    font-family: Circular Std;
+}
 body {
     background-color: cornsilk
 }
 p {
-    font-size: 12px
+    font-size: 19px
 }
