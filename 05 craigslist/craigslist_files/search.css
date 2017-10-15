@@ -20,7 +20,8 @@ a:hover {
 }
 
 select {
-    cursor: pointer
+    cursor: pointer;
+        font-family: circular std;
 }
 
 .page-container {
@@ -37,7 +38,7 @@ aside.highlight {
 }
 
 .tsb {
-    background: #fff;
+    background: #c7e2f5;
     margin: 3em 2em 5em
 }
 
@@ -217,7 +218,9 @@ aside.highlight {
     line-height: 1em;
     margin: 0 0 19px;
     width: 100%;
-    text-align: center
+    text-align: center;
+    font-family: circular std;
+        
 }
 
 .search-legend.bottom {
@@ -436,7 +439,8 @@ span.cur_day {
     margin-left: 8px;
     position: relative;
     top: 2px;
-    z-index: 1003
+    z-index: 1003;
+        font-family: circular std;
 }
 
 .search-options-container button {
@@ -473,7 +477,9 @@ span.cur_day {
     margin-top: -0.5em;
     padding: 0 1em 0.1em;
     position: relative;
-    z-index: 2
+    z-index: 2;
+        color: #faa7eb;
+    font-family: circular std;
 }
 
 .options-visible .search-options {
@@ -544,20 +550,23 @@ span.cur_day {
 
 .searchgroup {
     margin: 10px 0;
-    width: auto
+    width: auto;
+        font-family: rockwell;
 }
 
 .searchgroup .searchfieldlabel {
     font-size: 70%;
     text-transform: uppercase;
-    display: block
+    display: block;
+        font-family: rockwell;
 }
 
 .searchgroup:after {
     content: "";
     display: block;
     height: 8px;
-    width: 100%
+    width: 100%;
+    font-family: rockwell;
 }
 
 .searchgroup:last-child:after {
@@ -573,22 +582,26 @@ span.cur_day {
     -moz-columns: 2;
     columns: 2;
     display: none;
-    margin-left: 12px
+    margin-left: 12px;
+    font-family: rockwell;
 }
 
 .searchgroup .nearbyAreas:active, .searchgroup .nearbyAreas:hover {
-    text-decoration: none
+    text-decoration: none;
+    font-family: rockwell;
 }
 
 .searchgroup .nearbyAreas.doSearchNearby {
-    display: block
+    display: block;
+    font-family: rockwell;
 }
 
 .searchgroup label {
     display: -moz-inline-stack;
     display: inline-block;
     *display: inline;
-    *zoom: 1
+    *zoom: 1;
+    font-family: rockwell;
 }
 
 .cal-container {
@@ -688,7 +701,8 @@ span.cur_day {
 }
 
 .search-attribute .title {
-    cursor: pointer
+    cursor: pointer;
+        font-family: rockwell;
 }
 
 .search-attribute .title .plus {
@@ -825,13 +839,15 @@ span.cur_day {
 
 .resetsearch {
     height: 2em;
-    margin-bottom: 1em
+    margin-bottom: 1em;
+        font-family: circular std;
 }
 
 .resetsearch .reset {
     border: 1px solid #e0e0e0;
     float: left;
-    padding: 7px
+    padding: 7px;
+        font-family: circular std;
 }
 
 .resetsearch .searchlink {
@@ -843,11 +859,13 @@ span.cur_day {
     float: right;
     font-size: 1em;
     overflow: hidden;
-    padding: 7px
+    padding: 7px;
+    font-family: circular std;
 }
 
 .resetsearch .searchlink.changed_input {
-    background-color: #ffc
+    background-color: #ffc;
+    font-family: circular std;
 }
 
 .search_distance {
@@ -898,7 +916,8 @@ span.cur_day {
 
 @media only screen and (min-width: 480px) {
     .search-attribute .list {
-        font-size: .9em
+        font-size: .9em;
+          
     }
 
     .search-options-container {
@@ -1487,18 +1506,18 @@ span.cur_day {
 }
 
 .result-info {
-    font-family: "Times New Roman", Times, serif;
+    font-family: rockwell;
     line-height: 20px;
     margin: 0;
     text-overflow: ellipsis
 }
 
 .result-title {
-    font-family: "Times New Roman", Times, serif
+    font-family: rockwell;
 }
 
 .result-meta {
-    font-family: "Arial", sans-serif;
+    font-family: 
     font-size: 13px;
     line-height: 18px;
     margin: 2px 0 0 0

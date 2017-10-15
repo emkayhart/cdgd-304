@@ -90,13 +90,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-        font-family: circular std;
-            font-size: 12px;
-    background-color: #c7e2f5;
+    font-family: circular std;
+    font-size: 15px;
+    background-color: #f1f1f8;
 }
 
 ul {
-    list-style: none
+    list-style: none;
+    /*    background-color: aliceblue;*/
 }
 
 blockquote, q {
@@ -118,7 +119,9 @@ pre {
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block
+    display: block;
+    font-size: 10px;
+
 }
 
 template {
@@ -217,15 +220,19 @@ input.dv, textarea.dv {
 
 ul.ul, ol.ol {
     padding-left: 40px;
-    margin: 1em 0
+    margin: 1em 0;
+    font-family: circular std;
+    background-color: #f1f1f8;
 }
 
 ul.ul {
-    list-style-type: disc
+    list-style-type: disc;
+    background-color: #f1f1f8;
 }
 
 ol.ol {
-    list-style-type: decimal
+    list-style-type: decimal;
+    background-color: #f1f1f8;
 }
 
 ul.ul li, ol.ol li {
@@ -246,11 +253,13 @@ ul.ul li, ol.ol li {
 
 .linklike {
     color: #00e;
-    cursor: pointer
+    cursor: pointer;
+        font-family: rockwell;
 }
 
 .linklike:hover {
-    text-decoration: underline
+    text-decoration: underline;
+        font-family: rockwell;
 }
 
 .to-banish-page {
@@ -436,7 +445,8 @@ section.body {
 
 @media only screen and (min-width: 840px) {
     .post section.body {
-        padding-top: 4.5em
+        padding-top: 4.5em;
+        background-color: #85eff9
     }
 }
 
@@ -686,7 +696,7 @@ section.body {
     -webkit-border-radius: 1em;
     -moz-border-radius: 1em;
     border-radius: 1em;
-    background-color: #fff;
+    background-color: #f1f1f8;
     border: 1px solid #ccc;
     float: left;
     line-height: 1;
@@ -698,13 +708,14 @@ section.body {
 .global-header {
     *zoom: 1;
     border-bottom: 1px #ccc solid;
-    background: #eee;
+    background: #f1f1f8;
     height: 100%;
     line-height: 1.925em;
     min-height: 1.1em;
     padding: .3125em 0;
     width: 100%;
-    z-index: 1003
+    z-index: 1003;
+        font-family: circular std;
 }
 
 .global-header:before, .global-header:after {
@@ -789,7 +800,8 @@ table.four_pane_search {
     float: left;
     font-size: .9375em;
     min-height: 1.3em;
-    position: relative
+    position: relative;
+        padding: 2px;
 }
 
 .breadcrumbs-container ul, .breadcrumbs-container ol {
@@ -823,7 +835,8 @@ table.four_pane_search {
 }
 
 .search .breadcrumbs-container .breadcrumb-arrow {
-    display: none
+    display: none;
+    color: #faa7eb;
 }
 
 .breadcrumbs-container select {
@@ -1175,7 +1188,7 @@ footer {
 footer .clfooter li {
     display: inline;
     padding: 0 4px;
-    font-size: small
+    font-size: 10px;
 }
 
 footer .clfooter li a {
