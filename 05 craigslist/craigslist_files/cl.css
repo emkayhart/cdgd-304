@@ -396,7 +396,7 @@ section.body {
     background-color: #fff;
     height: 1.3em;
     line-height: 1.3em;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #faa7eb;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -412,7 +412,7 @@ section.body {
     display: inline-block;
     *display: inline;
     *zoom: 1;
-    border-left: 1px solid #e0e0e0;
+    border-left: 1px solid #faa7eb;
     padding: 0 7px;
     height: 100%
 }
