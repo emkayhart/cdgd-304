@@ -1,3 +1,5 @@
+
+
 .icon {
     display: -moz-inline-stack;
     display: inline-block;
@@ -89,7 +91,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline
+    vertical-align: baseline;
+        background-color: #c7e2f5;
 }
 
 ul {
@@ -151,7 +154,9 @@ body.mobile .mobile-only {
     top: auto;
     width: 1px;
     height: 1px;
-    overflow: hidden
+    overflow: hidden;
+         color: #85eff9;
+        
 }
 
 html, body {
@@ -160,9 +165,8 @@ html, body {
 }
 
 body {
-    background: white;
-    color: #222;
-    font-family: "Arial", sans-serif
+ background-color: #85eff9;
+            font-family: circular std;
 }
 
 button, select, input, fieldset, form, label, legend {
@@ -363,7 +367,10 @@ section.body {
     padding: .5em 9px 6em 9px;
     margin: 0 auto;
     height: 90%;
-    min-height: 600px
+    min-height: 600px;
+            font-family: circular std;
+            font-size: 15px;
+           
 }
 
 .interstitial section.body {
@@ -450,6 +457,7 @@ section.body {
     line-height: 1.925em;
     min-height: 1.1em;
     padding: 5px
+        
 }
 
 .header-contents {
@@ -479,9 +487,9 @@ section.body {
 }
 
 .global-header {
+    background-color: #deeaec;
     *zoom: 1;
     border-bottom: 1px #ccc solid;
-    background: #eee;
     height: 100%;
     line-height: 1.925em;
     min-height: 1.1em;
@@ -656,6 +664,7 @@ table.four_pane_search {
 .userlinks {
     float: right;
     font-size: .9em;
+    color: #fa6fe1;
     margin-top: 2px;
     padding: 0;
     position: absolute;
@@ -672,7 +681,8 @@ table.four_pane_search {
     line-height: 1.4em;
     padding-left: .4em;
     padding-right: .4em;
-    text-align: center
+    text-align: center;
+color: #fa6fe1
 }
 
 .userlinks .user:first-child {
@@ -681,7 +691,8 @@ table.four_pane_search {
 }
 
 .userlinks .user.account {
-    border-left: 1px solid #999
+    border-left: 1px solid #999;
+        color: #fa6fe1
 }
 
 .user-favs-discards .userlinks .user {
@@ -695,7 +706,8 @@ table.four_pane_search {
 }
 
 .userlinks .icon-star, .userlinks .icon-trash {
-    margin-right: 3px
+    margin-right: 3px;
+        color: #fa6fe1
 }
 
 .mobile .userlinks {
@@ -820,7 +832,10 @@ table.four_pane_search {
 
     .breadcrumbs-container .breadcrumbs .crumb {
         height: auto;
-        line-height: 1.5em
+        line-height: 1.5em;
+            
+            font-size: 10px;
+            list-style: none;
     }
 
     .breadcrumbs-container .breadcrumbs .section {
@@ -962,7 +977,12 @@ footer .clfooter li {
 }
 
 footer .clfooter li a {
-    text-decoration: none
+    text-decoration: none;
+        background-color: #deeaec;
+            font-size: 9px;
+            padding: 10px;
+            list-style: none;
+            width: 75%;
 }
 
 footer .rss {
@@ -1012,7 +1032,8 @@ footer .clfooter .rss .l {
 }
 
 #postingbody {
-    font-family: "Bitstream Vera Serif", "Times New Roman", serif;
+    font-family: circular std;
+    font-size: 15px;
     clear: left
 }
 
@@ -1031,7 +1052,8 @@ footer .clfooter .rss .l {
 #postingbody h1, #postingbody h2, #postingbody h3, #postingbody h4, #postingbody h5, #postingbody h6 {
     font-weight: bold;
     display: block;
-    text-align: inherit
+    text-align: left;
+    font-family: circular std;
 }
 
 #postingbody h1 {
@@ -1041,6 +1063,7 @@ footer .clfooter .rss .l {
 }
 
 #postingbody h2 {
+    font-family: circular std;
     font-size: 1.5em;
     line-height: 1.5em;
     margin: 0.83em 0
@@ -1123,7 +1146,7 @@ footer .clfooter .rss .l {
 }
 
 .posting .postingtitle {
-    font-family: "Bitstream Vera Serif", "Times New Roman", serif;
+    font-family: circular std;
     font-size: 1.4em;
     font-weight: bold;
     line-height: 1.4em;
@@ -1338,7 +1361,10 @@ footer .clfooter .rss .l {
 }
 
 .posting .avoid-scams {
-    display: none
+    display: none;
+        border: 2px solid #faa7eb;
+  
+    
 }
 
 .posting .email-friend {
