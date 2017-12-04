@@ -27,7 +27,7 @@ li.dropdown {
     background-color: #f6d5a4;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 90000;
 }
 
 .dropdown-content a {
@@ -49,39 +49,88 @@ body {
 h1 {
     color: red;
     text-align: center;
-    font-size: 50px
+    font-size: 50px;
+      
+}
+h2 {
+     text-align: center;
+   
+}
+h3, li {
+     text-align: center;
+   
 }
 h1 a:active, h1 a:visited  {
     color: red;
     text-decoration: none;
   
 }
-h4 a:active {
+h4 a:active, a:visited {
     color: black;
+    text-decoration: underline;
+   
 }
+h4 {
+    text-align: center; 
+}
+h5 {
+    font-size: 10pt;
+}
+/*
 a, a:active {
     text-decoration: none;
     color: black;
 }
+*/
 header {
     background-color: #f6d5a4;
     width: 100%;
-    height: 20%
+    height: 20%;
         
 }
+footer {
+   background-color: #f6d5a4;  
+    width: 100%;
+    height: 15%;
+}
 .section {
-    align-content: center;
+   
     
 }
-
-.container {
+/*
+.slideshow-container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+        text-align: center
+}
+*/
+/*
+.cycle-slideshow {
   position: relative;
-  width: 50%;
+  width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    height: auto;
+}
+*/
+.slideshow {
+ text-align: center;
+     margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   max-width: 500px; 
 }
 
 .image {
   display: block;
   width: 100%;
+    
   height: auto;
 }
 
@@ -92,29 +141,39 @@ header {
   left: 0;
   right: 0;
   height: 100%;
-  width: 100%;
+/*  min-width: 300px;*/
+    width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #f3a436;
+    overflow: auto;
 }
 
 .container:hover .overlay {
   opacity: 1;
+    
 }
 
 .text {
   color: white;
   font-size: 20px;
-  position: absolute;
+    text-align: center;
+/*
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+*/
 }
 .break {
     border-bottom: solid 5px;
     border-bottom-color: #f3a436;
+    margin-left: 100px;
+     margin-right: 100px;
 }
 p {
-    width: 50%;
+    width: 100%;
+   font-size: 10pt;
+    text-align: center;
 }
